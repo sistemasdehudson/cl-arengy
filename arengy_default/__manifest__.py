@@ -1,8 +1,8 @@
 {
-    'name': 'maitehnmaritimo',
+    'name': 'arengy',
     'version': '13.0.0.0',
     'category': 'Tools',
-    'summary': "Proyecto maitehnmaritimo",
+    'summary': "Proyecto arengy",
     'author': 'Sdeh',
     'depends': [
         'base',
@@ -17,7 +17,7 @@
     'limit_memory_hard': '760000000',
     'limit_time_cpu': '60',
     'limit_time_real': '120',
-    'dbfilter': 'maritimo.maitehn',
+    #'dbfilter': 'arengy',
 
     # manifest version, if omitted it is backward compatible
     'env-ver': '2',
@@ -30,11 +30,11 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/sistemasdehudson/cl-maitehnmaritimo',
+        'https://github.com/sistemasdehudson/cl-arengy',
         'https://github.com/regaby/odoo-custom.git',
         ##'https://github.com/regaby/l10n_ar_fe_qr',
-        'https://github.com/regaby/l10n_ar_fe_qr ctmil/l10n_ar_fe_qr',
-        'https://github.com/regaby/sdeh-pos.git',
+        #'https://github.com/regaby/l10n_ar_fe_qr ctmil/l10n_ar_fe_qr',
+        #'https://github.com/regaby/sdeh-pos.git',
         'https://github.com/jobiols/odoo-addons.git',
         ## localización
         'https://github.com/ingadhoc/odoo-argentina.git',
@@ -61,12 +61,23 @@
         ##
         'https://github.com/sistemasdehudson/sdehposaddons.git',
         ##
-        'https://github.com/sistemasdehudson/zero_kitchen',
+        #'https://github.com/sistemasdehudson/zero_kitchen',
         ##'https://github.com/OCA/pos/tree/13.0',
         'https://github.com/OCA/pos.git',
         ##'https://github.com/oca/report-print-send/tree/13.0',
-        'https://github.com/OCA/report-print-send.git',
-        'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
+        #'https://github.com/OCA/report-print-send.git',
+        #'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
+        'https://github.com/OCA/contract.git -b 13.0',
+        'https://github.com/odoomates/odooapps.git -b 13.0',
+        'https://github.com/OCA/project -b 13.0',
+	    'https://github.com/OCA/helpdesk -b 13.0',
+        'https://github.com/ingadhoc/purchase -b 13.0',
+        'https://github.com/ingadhoc/product -b 13.0',
+        'https://github.com/ingadhoc/website -b 13.0',
+        'https://github.com/OCA/project-reporting -b 13.0',
+        'https://github.com/OCA/purchase-workflow -b 13.0',
+        'https://github.com/OCA/delivery-carrier -b 13.0',
+	    'https://github.com/OCA/sale-workflow -b 13.0',
     ],
 
     'docker-images': [

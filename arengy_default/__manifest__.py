@@ -80,6 +80,7 @@
 	'https://github.com/OCA/sale-workflow -b 13.0',
 	'https://github.com/OCA/e-commerce -b 13.0',
 	'https://github.com/OCA/bank-statement-import -b 13.0',
+	'https://github.com/OCA/payroll -b 13.0',
 	    
     ],
 
